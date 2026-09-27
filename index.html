@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Velocity Motors | Sports Cars</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-car">
+            <i class="fa-solid fa-car-side"></i>
+        </div>
+
+        <h2>VELOCITY MOTORS</h2>
+
+        <div class="loading-bar">
+            <span></span>
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>V</span>
+            VELOCITY
+        </div>
+
+        <nav id="navMenu">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#cars">Autos</a>
+            <a href="#performance">Rendimiento</a>
+            <a href="#about">Nosotros</a>
+
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <button class="fav-nav" id="favoritesBtn">
+
+            <i class="fa-solid fa-heart"></i>
+
+            <span id="favCount">0</span>
+
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                <span></span>
+                THE FUTURE OF SPEED
+            </p>
+
+            <h1>
+                DRIVE YOUR
+                <strong>DREAM.</strong>
+            </h1>
+
+            <p class="hero-description">
+
+                Descubre una colección de los autos deportivos
+                más increíbles del mundo.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#cars" class="primary-btn">
+
+                    EXPLORAR AUTOS
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+                <button class="play-btn" id="playVideo">
+
+                    <i class="fa-solid fa-play"></i>
+
+                    VER EXPERIENCIA
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="scroll-down">
+
+            <span>SCROLL</span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MARQUEE ================= -->
+
+    <div class="marquee">
+
+        <div class="marquee-content">
+
+            <span>PERFORMANCE</span>
+            <i class="fa-solid fa-bolt"></i>
+
+            <span>POWER</span>
+            <i class="fa-solid fa-bolt"></i>
+
+            <span>PRECISION</span>
+            <i class="fa-solid fa-bolt"></i>
+
+            <span>SPEED</span>
+            <i class="fa-solid fa-bolt"></i>
+
+            <span>ADRENALINE</span>
+            <i class="fa-solid fa-bolt"></i>
+
+            <span>PERFORMANCE</span>
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= AUTOS ================= -->
+
+    <section class="cars-section" id="cars">
+
+        <div class="section-header">
+
+            <div>
+
+                <p class="section-label">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    CHOOSE YOUR
+                    <span>BEAST.</span>
+                </h2>
+
+            </div>
+
+            <p class="section-description">
+
+                Máquinas creadas para superar los límites,
+                combinar diseño y ofrecer una experiencia
+                inolvidable.
+
+            </p>
+
+        </div>
+
+
+        <!-- SLIDER -->
+
+        <div class="car-slider">
+
+            <button class="slider-btn prev" id="prevBtn">
+
+                <i class="fa-solid fa-chevron-left"></i>
+
+            </button>
+
+
+            <div class="car-card">
+
+                <div class="car-image-container">
+
+                    <div class="car-number">
+
+                        <span id="carNumber">01</span>
+                        / 06
+
+                    </div>
+
+
+                    <button class="favorite" id="favoriteBtn">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img id="carImage"
+                        src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=90"
+                        alt="Auto deportivo">
+
+                </div>
+
+
+                <div class="car-info">
+
+                    <div>
+
+                        <p class="car-brand" id="carBrand">
+                            PORSCHE
+                        </p>
+
+                        <h3 id="carName">
+                            911 GT3
+                        </h3>
+
+                    </div>
+
+                    <div class="car-price" id="carPrice">
+                        $182,900
+                    </div>
+
+                </div>
+
+
+                <div class="specs">
+
+                    <div class="spec">
+
+                        <i class="fa-solid fa-gauge-high"></i>
+
+                        <div>
+
+                            <span>0-100 KM/H</span>
+
+                            <strong id="carAcceleration">
+                                3.4s
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="spec">
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                        <div>
+
+                            <span>POTENCIA</span>
+
+                            <strong id="carPower">
+                                502 HP
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="spec">
+
+                        <i class="fa-solid fa-road"></i>
+
+                        <div>
+
+                            <span>TOP SPEED</span>
+
+                            <strong id="carSpeed">
+                                318 KM/H
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button class="details-btn" id="detailsBtn">
+
+                    VER DETALLES
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+
+            <button class="slider-btn next" id="nextBtn">
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="slider-dots" id="sliderDots"></div>
+
+    </section>
+
+
+    <!-- ================= PERFORMANCE ================= -->
+
+    <section class="performance" id="performance">
+
+        <div class="performance-bg"></div>
+
+        <div class="performance-content">
+
+            <p class="section-label">
+                ENGINEERED FOR SPEED
+            </p>
+
+            <h2>
+
+                PERFORMANCE
+                <span>WITHOUT LIMITS.</span>
+
+            </h2>
+
+            <p>
+
+                La velocidad no es solamente un número.
+                Es una sensación. Una combinación perfecta
+                entre ingeniería, potencia y control.
+
+            </p>
+
+
+            <div class="stats">
+
+                <div class="stat">
+
+                    <strong class="counter" data-target="1000">
+                        0
+                    </strong>
+
+                    <span>+ HP</span>
+
+                    <p>Potencia extrema</p>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong class="counter" data-target="2.5">
+                        0
+                    </strong>
+
+                    <span>SEC</span>
+
+                    <p>0-100 km/h</p>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong class="counter" data-target="350">
+                        0
+                    </strong>
+
+                    <span>KM/H</span>
+
+                    <p>Velocidad máxima</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=90"
+                alt="Sports car">
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT VELOCITY
+            </p>
+
+            <h2>
+
+                MORE THAN A
+                <span>CAR.</span>
+
+            </h2>
+
+            <p>
+
+                Velocity Motors es una experiencia dedicada
+                a los amantes de los autos deportivos.
+
+            </p>
+
+            <p>
+
+                Exploramos diseño, tecnología, potencia y
+                rendimiento para reunir algunas de las
+                máquinas más impresionantes del planeta.
+
+            </p>
+
+
+            <button class="outline-btn">
+
+                CONOCER MÁS
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div>
+
+            <p>READY?</p>
+
+            <h2>
+
+                START YOUR
+                <span>ENGINE.</span>
+
+            </h2>
+
+            <button class="primary-btn" id="exploreBtn">
+
+                EXPLORAR COLECCIÓN
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+
+            <span>V</span>
+            VELOCITY
+
+        </div>
+
+        <p>
+            © 2026 Velocity Motors. All rights reserved.
+        </p>
+
+        <div class="social">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= MODAL DETALLES ================= -->
+
+    <div class="modal" id="carModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+            <div class="modal-image">
+
+                <img id="modalImage" src="" alt="">
+
+            </div>
+
+
+            <div class="modal-info">
+
+                <div class="modal-main">
+
+                    <p id="modalBrand"></p>
+
+                    <h2 id="modalName"></h2>
+
+                    <p id="modalDescription"></p>
+
+                </div>
+
+
+                <div class="modal-specs">
+
+                    <div>
+
+                        <strong id="modalPower">
+                            502 HP
+                        </strong>
+
+                        <span>POTENCIA</span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong id="modalAcceleration">
+                            3.4s
+                        </strong>
+
+                        <span>0-100 KM/H</span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong id="modalSpeed">
+                            318 KM/H
+                        </strong>
+
+                        <span>VELOCIDAD</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FAVORITOS ================= -->
+
+    <div class="favorites-panel" id="favoritesPanel">
+
+        <div class="favorites-header">
+
+            <h3>
+
+                <i class="fa-solid fa-heart"></i>
+
+                MIS FAVORITOS
+
+            </h3>
+
+            <button id="closeFavorites">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div id="favoritesList">
+
+            <p class="empty-favorites">
+
+                Todavía no tienes autos favoritos.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
